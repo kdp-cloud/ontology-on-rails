@@ -1,0 +1,27 @@
+<div class = "container">
+    <h1>Ontologies</h1>
+    <ul>
+    <% @ontologies.each do |ontology| %>
+        <li>
+            <a href = <%= ontology.config.homepage %>>
+                <%= ontology.ontologyId %>
+            </a>
+            <ul>
+                <li>
+                    <b> Title </b>: <%= ontology.config.title %>
+                </li>
+                <li>
+                    <b> Number of terms </b>: <%= ontology.numberOfTerms %>
+                </li>
+                <li>
+                    <b> Description </b>: <%= ontology.config.description %>
+                </li>
+                <li>
+                    <b> Status </b>: <%= ontology.status %>
+                </li>
+            </ul>
+        </li>
+    <% end %>
+    </ul>
+
+</div>

@@ -1,0 +1,21 @@
+<div class= "container">
+    <h1><%= @ontology.config.title %></h1>
+    <h3>Ontology ID - Homepage</h3>    
+    <a href= <%= @ontology.config.homepage %>>
+        <%= @ontology.ontologyId %>
+    </a>
+    <h3>Description</h3>
+    <p>
+        <%= @ontology.config.description %>
+    </p>
+    <h3>Details</h3>
+    <ul>
+        <li>
+            <b>Number of terms:</b> <%= @ontology.numberOfTerms %>
+        </li>
+        <li>
+            <b>Status:</b> <%= @ontology.status %>
+        </li>
+    </ul>
+    
+</div>
