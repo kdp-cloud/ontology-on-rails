@@ -1,24 +1,5 @@
-# README
+# Ontology on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains a test web application that implements the Ontology gem.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The home page shows a list of the different ontologies. To go to a detailed page, click on the ontology identifier.

@@ -3,7 +3,7 @@
     <ul>
     <% @ontologies.each do |ontology| %>
         <li>
-            <a href = <%= ontology.config.homepage %>>
+            <a href = "/ontologies/<%= ontology.ontologyId %>">
                 <%= ontology.ontologyId %>
             </a>
             <ul>
